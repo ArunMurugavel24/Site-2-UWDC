@@ -1,0 +1,195 @@
+body {
+  margin: 0px;
+  text-align: center; /*centres everything that are not set with width*/
+  font-family: "Merriweather", serif;
+  line-height: 2;
+  color: #40514e;
+}
+
+h1 {
+  margin: 30px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  background-color: #eaf6f6 6px;
+  border-bottom: none;
+  border-style: dotted;
+  width: 4%;
+  margin: 70px auto;
+}
+
+a {
+  color: #11999e;
+  line-height: 3;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+#bio {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+  outline: none;
+}
+
+.profile {
+  padding-top: 10px;
+}
+
+.computer,
+.hot-wings {
+  width: 25%;
+}
+
+.computer {
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.hot-wings {
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.middle-container {
+  margin: 70px 0 70px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto 70px auto;
+  text-align: left;
+}
+
+p {
+  line-height: 2;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 350px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 40px;
+}
+
+#pro {
+  text-decoration: underline;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.social-links {
+  word-spacing: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.BUTTON_TJQ {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 8px;
+  height: 5px;
+  line-height: 5px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 15px;
+  background-color: #11999e;
+  -webkit-box-shadow: 0 0 5px 1px #ffffff;
+  -moz-box-shadow: 0 0 5px 1px #ffffff;
+  box-shadow: 0 0 5px 1px #ffffff;
+  text-shadow: 1px 1px 20px #11999e;
+  border: solid #11999e 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.BUTTON_TJQ:hover {
+  background: #66bfbf;
+  border: solid #66bfbf 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.copyrights {
+  font-size: 0.8rem;
+  color: #eaf6f6;
+}
+/* Padding only pads the text not the background image or background color*/
+
+/*Can't change the width or height of the SPAN element.*/
+
+/*Eventhough we can change the width and height of the block elements like p,h1 etc., it will still not allow other elements to sit next to each other*/
+
+/* display:inline -- allows elements to align in the same line though it is a block elemnent
+          :block -- allows to change the width
+          :inline-block -- allows to change bot
+          width and also to display elements in the same line.
+          :none -- gets rid of the element (removes that paricular element as if it doesn't exixt)(analogy of deleting in the html code)(can be used in the website for deleting e.g.:QUIZ)
+Visibility: hidden -- makes the element disapper but keeps the position hidden without allowing other elements to occupy it*/
+
+/*Order of CSS selector positioning is based on the order of the HTML tags*/
+
+/* children sit on parent elements*/
+
+/*100% = 16px equivalent = 1em equibvalent*/
+
+/*use "rem" for font sizing*/
+
+/* In a css selection bracket, always assign the values of the attributes in alphabetical order*/
+
+/* use "float" when it is necessary; not in every cases. use it only to wrap texts around and not for other uses. Don't use it for positioning.*/
+
+/* order all the HTML elements first and then order classes and id selectors*/
